@@ -1,0 +1,33 @@
+
+.iscroller>section{
+	width: 100%;
+	background:#fff;
+	margin-bottom: .39rem;
+}
+.con_top{
+	width: 100%;
+	height: 6.57rem;
+}
+	.con_top img{
+		width: 100%;
+		height: 100%;
+	}
+.con_bot{
+	width: 100%;
+	background:#F7FCF6;
+	padding:0 .3rem;
+}
+	.con_bot h1{
+		line-height: 1.54rem;
+		font-size: .48rem;
+	}
+	.con_bot h2{
+		font-size: .40rem;
+		color: #646663;
+	}
+	.con_bot p{
+		padding-top: .38rem;
+		padding-bottom: .48rem;
+		font-size: .32rem;
+		color: #8C918B;
+	}

@@ -1,0 +1,97 @@
+@import url("../css/reset.css");
+
+.input::-moz-placeholder { color: #CFD4CE; }
+.input::-webkit-input-placeholder { color:#CFD4CE; }
+.input:-ms-input-placeholder { color:#CFD4CE; }
+
+html,body,.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+a,img{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+html{
+	font-size:625%;
+}
+body{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	background:#EFF4EE;
+}
+
+.container{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+
+.header{
+	width:100%;
+	height:1.38rem;
+	border-bottom: 0.03rem solid #EEF0ED;
+	padding:0.24rem 0.42rem 0.21rem 0.42rem ;
+	background:#fff;
+}
+	.input_box{
+		width: 100%;
+		height: 100%;
+		border-radius: 0.45rem;
+		border:0.03rem solid #EEF0ED;
+		position: relative;
+	}
+	.input_box span{
+		display:inline-block;
+		width: 0.35rem;
+		height: 0.35rem;
+		background:url(../img/search.jpg);
+		background-size: 100% 100%;
+		left: 0.27rem;
+		top: 0.27rem;
+		position: absolute;
+	}
+	.input{
+		border:none;
+		outline: none;
+		left: 0.76rem;
+		position: absolute;
+		margin:auto;
+		top: 0;
+		bottom: 0;
+	}
+
+.main{
+	-webkit-flex:1;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+	.iscroller{
+		
+	}
+.footer{
+	width:100%;
+	height:1.50rem;
+	border-top: 0.03rem solid #EEF0ED;
+	background:#fff;
+}
+	.footer nav{
+		width: 100%;
+		height:100%;
+		display: -webkit-flex;
+	}
+	.footer a{
+		-webkit-flex:1;
+		text-align: center;
+		padding-top: .24rem;
+		color: #989A97;
+	}
+	.footer a span{
+		font-size: .33rem;
+	}
+	.footer a i{
+		display: block;
+		width: .63rem;
+		height: .63rem;
+		margin:auto;
+	}
